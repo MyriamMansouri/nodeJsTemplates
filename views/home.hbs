@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Myriam Mansouri</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/styles/styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Marvel:700" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+</head>
+
+<body>
+    <section id="welcome-section">
+        {{> header}}
+
+        <div id="hero-quote">
+            <h1 id="me">{{pageTitle}}</h1><br>
+            <h2 id="job">Front-end web developer</h2>
+        </div>
+    </section>
+
+    {{> projects}}
+    {{> socialMedias}}
+    {{> contact}}
+    {{> footer}}
+</body>
+
+</html>

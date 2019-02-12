@@ -1,0 +1,81 @@
+$h2-font-family:$secondary-font-title;
+$textarea-bg-color:$primary-dark-1;
+$form-focus-border-color:$primary-dark-1;
+
+body, html, ul, textarea {
+    font-family: $font-family;
+    margin: 0;
+    padding:0;
+}
+
+section {
+    box-sizing: border-box;
+    padding:10vw 15vw 15vw 15vw;
+}
+
+h1 {
+    line-height: 4.7rem;
+    font-size: 5rem;
+}
+
+h2{
+    font-size:2.7rem;
+    font-family: $h2-font-family;
+}
+
+h1,
+h2{
+    font-weight: bold;
+}
+
+h1,
+h2,
+p {
+    margin:0;
+}
+header,
+footer {
+    left:0;
+    right: 0;
+}
+
+header {
+    position: fixed;
+    top:0;
+}
+
+footer {
+    height:50px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+button {
+    border:none;
+}
+
+input, 
+textarea {
+    border:none;
+    width: 100%;
+    display: block;
+    outline: none;
+    box-sizing: border-box;
+    border:2px solid;
+    margin: 20px 0;
+    padding: 10px;
+    text-align: left;
+    &:focus {
+        border:2px solid $form-focus-border-color;
+    }
+}
+
+textarea{
+    height: 40vh;
+}
